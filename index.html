@@ -6,7 +6,10 @@
 <body>
 
 	<section id="header">
-
+		<div id="searchbar">
+			<input type="text" placeholder="QUICK SEARCH">
+			<button type="submit" class="search">&#9658;</button>
+		</div>
 	</section>
 
 	<nav>
@@ -48,10 +51,59 @@
 			</ul>
 		</div>
 
+
+		<div id="horizontal">
+			<div id="bluebar">
+				<h3>ORDER RISK-FREE NOW</h3>
+				<h2 id="arrow">&#9658;</h2>
+			</div>
+		</div>
+
+
+		<div id="rightside">
+			<div class="orders" id="3">
+				<div id="best-value">
+					<h4>3 BOTTLES</h4>
+				</div>
+				<form id="spotlight">
+					<input type="radio" checked>
+					<h5 class="total">$147.00 + Free Shipping</h5>
+					<h5 class="per">$49.00/bottle</h5>
+				</form>
+			</div>
+			<div class="orders" id="2">
+				<div class="order-header">
+					<h4>2 BOTTLES</h4>
+				</div>
+				<form>
+					<input type="radio">
+					<h5 class="total">$107.80 + Free Shipping</h5>
+					<h5 class="per">$53.90/bottle</h5>
+				</form>
+			</div>
+			<div class="orders" id="1">
+				<div class="order-header">
+					<h4>1 BOTTLE</h4>
+				</div>
+				<form>
+					<input type="radio">
+					<h5 class="total">$58.80 + Free Shipping</h5>
+				</form>
+			</div>
+			<div class="orders">
+				<button class="order"><h3>Order Now &#9658;<h3></button>
+			</div>
+			<div id="badges">
+				<img src="assets/badges.png">
+			</div>
+		</div>
+
 		<div class="entry" id="quote1">
 			<div class="quotes">
-				<p>It's not just the career tanners out there who find that the sun has caused their skin to become spotted [...] You can still find that the sun has damaged your skin to the point of developing dark melanin spots - even if you've always kept covered up and protected in the sun.</p>
-				<p>-Katrina Briggs, Author of <i>Destroying Dark Spots: Your Guide to Treating Dark Spots on the Skin Naturally</i></p>
+				<div class="quote-box">
+					<p>It's not just the career tanners out there who find that the sun has caused their skin to become spotted [...] You can still find that the sun has damaged your skin to the point of developing dark melanin spots - even if you've always kept covered up and protected in the sun.</p>
+					<p>-Katrina Briggs, Author of <i>Destroying Dark Spots: Your Guide to Treating Dark Spots on the Skin Naturally</i></p>
+				</div>
 			</div>
 			<div class="book">
 				<img src="assets/book1.png">
@@ -60,8 +112,10 @@
 
 		<div class="entry" id="quote2">
 			<div class="quotes">
-				<p>Skin color homogeneity, driven by melanin and hemoglobin distribution, influences perception of age, attractiveness, health, and youth.</p>
-				<p>-P.J. Matts, B. Fink, K. Grammer, and M. Burquest, from the Journal of American Academy of Dermatology</p>
+				<div class="quote-box">
+					<p>Skin color homogeneity, driven by melanin and hemoglobin distribution, influences perception of age, attractiveness, health, and youth.</p>
+					<p>-P.J. Matts, B. Fink, K. Grammer, and M. Burquest, from the Journal of American Academy of Dermatology</p>
+				</div>
 			</div>
 			<div class="book">
 				<img src="assets/book2.png">
@@ -70,8 +124,10 @@
 
 		<div class="entry" id="quote3">
 			<div class="quotes">
-				<p>Facial hyperpigmentation can cause significant cosmetic disfigurement with subsequent emotional impact. [...]Ascorbic acid, also known as vitamin C, has antioxidant properties and reduces melanogenesis[.]</p>
-				<p>-N.A. Vashi, MD and R.V. Kundu, MD from the British Journal of Dermatology</p>
+				<div class="quote-box">
+					<p>Facial hyperpigmentation can cause significant cosmetic disfigurement with subsequent emotional impact. [...]Ascorbic acid, also known as vitamin C, has antioxidant properties and reduces melanogenesis[.]</p>
+					<p>-N.A. Vashi, MD and R.V. Kundu, MD from the British Journal of Dermatology</p>
+				</div>
 			</div>
 			<div class="book">
 				<img src="assets/book3.png">
@@ -199,7 +255,7 @@
 		<div id="info-bottom">
 			<p>We spent years researching ingredients, traveling the world, and perfecting our formulation to deliver the best possible dark spot corrector. That's why we're so confident that you'll love your results - and we're willing to back it up with a guarantee.</p>
 			<p>If you are unsatisfied with Beverly Hills MD Dark Spot Corrector for any reason, simply return it within 60 days for a full refund.</p>
-			<button><h3>Order Now &#9658;<h3></button>
+			<button class="order"><h3>Order Now &#9658;<h3></button>
 		</div>
 
 	</section>

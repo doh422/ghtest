@@ -1,11 +1,23 @@
 body {
-	font-family: sans-serif;
+	font-family: Helvetica;
 	color: #8B8B8B;
 	font-weight: lighter;
 }
 
 #header {
 	height: 10%;
+	display: flex;
+	align-items: center;
+}
+
+#searchbar {
+	margin-left: 70%;
+}
+
+.search {
+	background-color: #B2B2B2;
+	color: white;
+	border: 0;
 }
 
 nav	{
@@ -78,9 +90,87 @@ hr {
 	font-weight: bold;
 }
 
+#horizontal {
+	width: 60%;
+	text-align: right;
+	position: relative;
+	z-index: -1;
+	top: -100px;
+}
+
+#bluebar {
+	background-color: #3A5EAC;
+}
+
+#bluebar h3 {
+	display: inline-block;
+	color: white;
+}
+
+#arrow {
+	display: inline-block;
+	color: #3A5EAC;
+	background-color: white;
+}
+
+#rightside {
+	width: 25%;
+	float: right;
+}
+
+.orders {
+	box-shadow: 5px 5px 5px 5px #C4C4C4;
+}
+
+.orders h4 {
+	margin: 0;
+}
+
+.orders h5 {
+	margin: 0;
+}
+.orders form {
+	margin-bottom: 0;
+	height: 10%;
+}
+
+#best-value {
+	background-color: #3A5EAC;
+	color: white;
+	text-align: center;
+}
+
+#spotlight {
+	background-color: #CAE4FD;
+}
+
+.order-header {
+	background-color: #D5D5D5;
+	color: black;
+	text-align: center;
+}
+
+.total {
+	color: #3A5EAC;
+	display: inline;
+}
+
+.entry {
+	height: 250px;
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+
 .entry .quotes{
 	display: inline-block;
-	width: 40%;
+	width: 70%;
+	background: url('assets/quotes.png');
+	background-repeat: no-repeat;
+}
+
+.entry .quotes .quote-box {
+	padding: 5px 50px 0 45px;
 }
 
 .entry .book {
@@ -153,6 +243,9 @@ hr {
 #bar {
 	background-color: #D5D5D5;
 	height: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #bar h1	{
@@ -169,6 +262,7 @@ hr {
 #all-ingredients {
 	color: black;
 	font-weight: bold;
+	padding: 15px 20px 10px 20px;
 }
 
 .blue {
@@ -185,7 +279,7 @@ hr {
 	width: 50%;
 }
 
-button {
+.order {
 	background-color: #3A5EAC;
 	color: white;
 	width: 40%;
