@@ -98,7 +98,20 @@ hr {
 	text-align: center;
 }
 
-	
+#doc span {
+	color: black;
+	font-weight: bold;
+}
+
+#doc-content {
+	width: 80%;
+	margin: auto;
+}
+
+#headshot {
+	width: 80%;
+	margin: auto;
+}	
 
 .media {
 	display: inline-block;
