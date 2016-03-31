@@ -78,8 +78,13 @@ hr {
 	font-weight: bold;
 }
 
-.quotes {
-	width: 50%;
+.entry .quotes{
+	display: inline-block;
+	width: 40%;
+}
+
+.entry .book {
+	display: inline-block;
 }
 
 .section-header {
@@ -168,4 +173,21 @@ hr {
 
 .blue {
 	color: #3A5EAC;
+}
+
+#pic-bottom {
+	display: inline-block;
+	width: 25%;
+}
+
+#info-bottom {
+	display: inline-block;
+	width: 50%;
+}
+
+button {
+	background-color: #3A5EAC;
+	color: white;
+	width: 40%;
+	height: 5%;
 }
