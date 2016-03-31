@@ -141,9 +141,29 @@ hr {
 }
 
 #filler {
-	background-color: blue;
-	height: 10%;
 	width: 100%;
+	box-shadow: 5px 5px 5px 5px #C4C4C4;
+}
+
+#bar {
+	background-color: #D5D5D5;
+	height: 5%;
+}
+
+#bar h1	{
+	display: inline;
+	color: #3A5EAC;
+}
+
+#bar p {
+	display: inline;
+	color: black;
+	font-weight: bold;
+}
+
+#all-ingredients {
+	color: black;
+	font-weight: bold;
 }
 
 .blue {
