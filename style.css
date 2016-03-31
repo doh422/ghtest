@@ -99,3 +99,13 @@ hr {
 	color: #3A5EAC;
 	font-weight: bold;
 }
+
+#filler {
+	background-color: blue;
+	height: 10%;
+	width: 100%;
+}
+
+.blue {
+	color: #3A5EAC;
+}
