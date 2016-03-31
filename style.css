@@ -87,6 +87,19 @@ hr {
 	color: black;
 }
 
+#doc {
+	width: 40%;
+	float: right;
+	box-shadow: 5px 5px 5px 5px #C4C4C4;
+}
+
+#doc h1 {
+	color: #3A5EAC;
+	text-align: center;
+}
+
+	
+
 .media {
 	display: inline-block;
 	width: 50%;
@@ -95,6 +108,9 @@ hr {
 .testimonial .quotes {
 	width: 45%;
 	display: inline-block;
+	position: relative;
+	top: -5em;
+	left: 2em;
 }
 
 .faq h3 {
