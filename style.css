@@ -5,7 +5,7 @@ body {
 }
 
 #header {
-	height: 10%;
+	height: 70px;
 	display: flex;
 	align-items: center;
 }
@@ -23,8 +23,8 @@ body {
 nav	{
 	background-color: #B2B2B2;
 	color: white;
-	padding-left: 15%;
-	height: 5%;
+	padding-left: 20%;
+	height: 35px;
 	display: flex;
 	align-items: center;
 }
@@ -39,7 +39,7 @@ nav li {
 }
 
 #content {
-	width: 70%;
+	width: 870px;
 	margin: auto;
 }
 
@@ -91,7 +91,7 @@ hr {
 }
 
 #horizontal {
-	width: 60%;
+	width: 70%;
 	text-align: right;
 	position: relative;
 	z-index: -1;
@@ -100,22 +100,35 @@ hr {
 
 #bluebar {
 	background-color: #3A5EAC;
+	height: 30px;
+	justify-content: flex-end;
+	display: flex;
+	align-items: center;
 }
 
 #bluebar h3 {
 	display: inline-block;
 	color: white;
+	margin-right: 10px;
 }
 
 #arrow {
 	display: inline-block;
 	color: #3A5EAC;
 	background-color: white;
+	padding: 3px;
 }
 
 #rightside {
-	width: 25%;
+	width: 250px;
 	float: right;
+	position: relative;
+	top: -130px;
+}
+
+#badges {
+	position: relative;
+	top: 25px;
 }
 
 .orders {
@@ -128,31 +141,56 @@ hr {
 
 .orders h5 {
 	margin: 0;
+	display: block;
 }
 .orders form {
 	margin-bottom: 0;
-	height: 10%;
+	height: 95px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#submit {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #best-value {
 	background-color: #3A5EAC;
 	color: white;
-	text-align: center;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #spotlight {
 	background-color: #CAE4FD;
+	height: 95px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .order-header {
 	background-color: #D5D5D5;
 	color: black;
-	text-align: center;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .total {
 	color: #3A5EAC;
-	display: inline;
+}
+
+#leftside {
+	position: relative;
+	top: -80px;
 }
 
 .entry {
@@ -164,7 +202,7 @@ hr {
 
 .entry .quotes{
 	display: inline-block;
-	width: 70%;
+	width: 500px;
 	background: url('assets/quotes.png');
 	background-repeat: no-repeat;
 }
@@ -175,6 +213,28 @@ hr {
 
 .entry .book {
 	display: inline-block;
+	position: relative;
+	right: 10px;
+}
+
+.entry .book img {
+	height: 150px;
+}
+
+#entry2 {
+	position: relative;
+	top: -20px;
+}
+
+#break {
+	position: relative;
+	top: -50px;
+}
+
+#asseenon img {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .section-header {
@@ -213,12 +273,31 @@ hr {
 	width: 50%;
 }
 
-.testimonial .quotes {
+.media img {
+	width: 100%;
+}
+
+.testimonial #vid-about {
 	width: 45%;
 	display: inline-block;
 	position: relative;
 	top: -5em;
 	left: 2em;
+}
+
+.testimonial .quotes {
+	display: inline-block;
+	width: 430px;
+	background: url('assets/quotes2.png');
+}
+
+.testimonial .quote-box {
+	padding: 3px 20px 0 35px;
+}
+
+#second {
+	position: relative;
+	top: -25px;
 }
 
 .faq h3 {
@@ -269,19 +348,34 @@ hr {
 	color: #3A5EAC;
 }
 
+#last {
+	width: 500px;
+	margin: auto;
+}
+
 #pic-bottom {
 	display: inline-block;
-	width: 25%;
+}
+
+#pic-bottom img {
+	height: 280px;
 }
 
 #info-bottom {
 	display: inline-block;
-	width: 50%;
+	width: 300px;
+	position: relative;
+	top: -20px;
+}
+
+#info-bottom p:nth-child(2){
+	margin-bottom: 5px;
 }
 
 .order {
 	background-color: #3A5EAC;
 	color: white;
-	width: 40%;
-	height: 5%;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px 5px 5px 5px;
 }
