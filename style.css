@@ -23,7 +23,6 @@ body {
 nav	{
 	background-color: #B2B2B2;
 	color: white;
-	padding-left: 20%;
 	height: 35px;
 	display: flex;
 	align-items: center;
@@ -31,6 +30,8 @@ nav	{
 
 nav ul {
 	padding-left: 20px;
+	width: 870px;
+	margin: auto;
 }
 
 nav li {
