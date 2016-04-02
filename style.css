@@ -120,6 +120,28 @@ hr {
 	padding: 3px;
 }
 
+#corner-ribbon {
+	width: 113px;
+	position: absolute;
+	top: 6px;
+	left: 179px;
+	transform: rotate(45deg);
+	background-color: #FCE262;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	height: 27px;
+	font-weight: bold;
+}
+
+/*#corner-ribbon::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+
+}*/
+
 #rightside {
 	width: 250px;
 	float: right;
